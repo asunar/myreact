@@ -1,0 +1,28 @@
+why build stuff that is already in the browser? NProgress, Link etc.
+
+GraphQL is a spec lang agnostic spec
+
+client can be anything (ex. arduino)
+
+graphql can replace REST or sit in front of REST to proxy data.
+
+Can implement in any lang.
+BE: prisma, graphql yoga
+FE: Apollo
+
+graphql single endpoint, send query, get data
+it is a typed language
+
+graphql datamodel = database schema, duplication?
+relationship? umm like a RDMS?
+
+query/mutation
+
+graphql does not have filtering, sorting?!!
+
+graphql itself does not fetch, filter and sort data
+just a way to describe what you want.
+
+servers implement RESOLVERS , they answer how and where get the data from..That's where you handle filtering sorting etc.
+
+just a standard to request specific data.
