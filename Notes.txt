@@ -26,3 +26,17 @@ just a way to describe what you want.
 servers implement RESOLVERS , they answer how and where get the data from..That's where you handle filtering sorting etc.
 
 just a standard to request specific data.
+
+graphql syntax: learning another data definition language..
+
+graphql is db agnostic
+
+prisma exposes datetime fields (lastcreated, lastupdated) => tied to prisma implementation now.
+
+
+directives in graphql: confusion for angular devs, implemented by your graphql server(prisma). => tied more to prisma.
+
+prisma deploy: database migrations, dacpac, oSetupSQL
+
+
+
