@@ -32,11 +32,23 @@ graphql syntax: learning another data definition language..
 graphql is db agnostic
 
 prisma exposes datetime fields (lastcreated, lastupdated) => tied to prisma implementation now.
+createAt: DateTime! #NOT A STANDARD TYPE in GraphQL, exposed by Prisma. If you don't use Prisma, create your own DateTime type WTF...
+
 
 
 directives in graphql: confusion for angular devs, implemented by your graphql server(prisma). => tied more to prisma.
 
 prisma deploy: database migrations, dacpac, oSetupSQL
 
+prisma just generated CRUD query no custom server side logic, charge cc, send email, authentication, authorization...umm business layer?
+
+react uses apollo client to query GraphQL yoga endpoint, on the server GraphQL yoga is going to connect to prisma db and pull data back.
+prisma binding allows to write queries just like we were doing in the graphql playground
+
+Anytime you change datamodel, you have to deploy to prisma, update db and pull down new prisma schema
+
+datamodel.graphql or datamodel.prisma => for prisma backend
+prisma.graphql => gets generated BASED ON datamodel.graphql ^ (has everything)
+schema.graphql => public facing API
 
 
