@@ -51,4 +51,4 @@ datamodel.graphql or datamodel.prisma => for prisma backend
 prisma.graphql => gets generated BASED ON datamodel.graphql ^ (has everything)
 schema.graphql => public facing API
 
-
+Video: 16 @ 8:30, error undefined...refresh the page? Sometime the hot reload gets into weird state and is not able to recover. If you get an error that you don't understand just refresh the page. facepalm
