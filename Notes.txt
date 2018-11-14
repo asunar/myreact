@@ -52,3 +52,10 @@ prisma.graphql => gets generated BASED ON datamodel.graphql ^ (has everything)
 schema.graphql => public facing API
 
 Video: 16 @ 8:30, error undefined...refresh the page? Sometime the hot reload gets into weird state and is not able to recover. If you get an error that you don't understand just refresh the page. facepalm
+
+Video 17 error, is this one of those times when I need to refresh the page? Yes it is
+
+Can't change textbox value. Failed prop type. You provided a value prop to a form field without an onChange event handler. This will render a read-only field.
+tie DOM to state now data can be changed in DOM or state. React needs a single source of truth. Roundabout intercept the change event, grab the value, set that to state, this will cause the input to change.
+
+all that work was to expose createItem and loading/error states 
