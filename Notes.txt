@@ -59,3 +59,5 @@ Can't change textbox value. Failed prop type. You provided a value prop to a for
 tie DOM to state now data can be changed in DOM or state. React needs a single source of truth. Roundabout intercept the change event, grab the value, set that to state, this will cause the input to change.
 
 all that work was to expose createItem and loading/error states 
+
+Just look at Update.js render function Query > Mutation nested structure... the nightmare of matching parens...
