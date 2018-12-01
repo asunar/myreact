@@ -61,3 +61,5 @@ tie DOM to state now data can be changed in DOM or state. React needs a single s
 all that work was to expose createItem and loading/error states 
 
 Just look at Update.js render function Query > Mutation nested structure... the nightmare of matching parens...
+
+Video 20 DeleteItem update function. Need to expose ALL_ITEMS_QUERY from the Items component to update the cache after the delete operation WUT?
